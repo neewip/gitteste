@@ -1,5 +1,5 @@
 body {background-color: #E36791}
-
+img{max-width: 100%; overflow: auto;}
 nav{text-align:center; 
     margin-bottom: 5%;
      background-color:#B51465 ;
@@ -81,4 +81,21 @@ justify-content: space-around;
     justify-content: right;
     border: 4px solid #790E44;
     background-color:#B51465;
+}
+
+@media screen and (max-width: 800px) {
+  .paragrafo1{
+    width: 100%;
+    margin-left: -1vw;
+    font-size:medium;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .paragrafo{
+    width: 100%;
+    margin-left: -1vw;
+
+  }
+  }
+
 }
