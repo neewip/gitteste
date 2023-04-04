@@ -10,7 +10,7 @@ nav{text-align:center;
     background-color: #B51465;
     border: none;
     color: white;
-    padding: 16px 32px;
+    padding: 1em 2em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -98,4 +98,4 @@ justify-content: space-around;
   }
   }
 
-}
+
