@@ -16,7 +16,6 @@ fieldset {
 
 legend {
   border: 4px solid #790E44;
-  color: white;
   background-color: #B51465;
   padding: 5px 10px;
 }
@@ -28,6 +27,7 @@ input[type=text] {
   height:2vw;
   
 }
+
 
 input[type=reset] {
   height: 1.4vw;
@@ -129,4 +129,8 @@ justify-content: space-around;
   flex-direction: row;
   display: flex;
   margin-left: 4vw;
+}
+
+.lado{
+  margin-left:5%;
 }

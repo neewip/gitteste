@@ -14,7 +14,19 @@
 
     <style>
     @media screen and (max-width: 800px) {
-                     
+
+        input[type=text] {
+  width: 88vw;
+  height:7vw;
+  
+}
+
+input[type=reset] {
+  height: 7vw;
+}
+input[type=button] {
+  height: 7vw;
+}
            .paragrafo{
             width: 100%;
             margin-left: -1vw;
@@ -24,17 +36,39 @@
             margin-left: -1vw;
             
         }
-            footer{
+            .footer{
             width: 100;
-            margin-left: -1vw
+            margin-left: -1vw;
 
             }
         
             .paragrafo1{
             width: 100%;
             margin-left: -1vw;
-            margin-bottom:20vw ;
+            margin-bottom:-1vw ;
         }
+
+        .form{
+            width: 100%;
+            margin-left: -1vw;
+            
+        }
+
+        .form2{
+            margin-left: -1vw;
+            width: 94%;
+            flex-direction: column;
+        }
+
+        .lado{
+            margin-left: 0%;
+        }
+
+        .row2 {
+            margin-left: -1vw;
+            margin-bottom:20vw;
+        }
+        
     }
     </style>
 
@@ -99,7 +133,7 @@
             <input type="text" id="idade" name="idade">
             <BR>
             </div>
-                <div style="margin-left: 5%;">
+                <div class="lado">
                 <label for="email">E-mail:</label>
                 <br>
                 <input type="text" id="email" name="email">
