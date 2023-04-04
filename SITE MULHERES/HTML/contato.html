@@ -11,7 +11,7 @@
 
     <script src="https://kit.fontawesome.com/819c372c58.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="../CSS/contato.css">
+
     <style>
     @media screen and (max-width: 800px) {
                      
@@ -43,7 +43,7 @@
 <nav>
     
     
-            <a href="../Inicio.html" class="button button1"><i class="fa-solid fa-house"></i></a> 
+            <a href="../index.html" class="button button1"><i class="fa-solid fa-house"></i></a> 
         
             <a href="../HTML/Professoras.html" class="button button1"><i class="fa-solid fa-chalkboard-user"></i></a> 
 
@@ -79,10 +79,60 @@
         </h3>
     </section>
     <br>
+
+    <article class="form">
+        <h2>Um formulário, caso tenha tido interesse em nosso trabalho</h2>
+     </article>
+
+     <form>
+
+        <fieldset class="form2">
+            <legend><strong>Dados pessoais</strong></legend>
+<div>
+            <label for="NOME">Nome completo:</label>
+            <br>
+            <input type="text" id="NOME" name="NOME">
+            
+            <br>
+            <label for="idade">Idade:</label>
+            <br>
+            <input type="text" id="idade" name="idade">
+            <BR>
+            </div>
+                <div style="margin-left: 5%;">
+                <label for="email">E-mail:</label>
+                <br>
+                <input type="text" id="email" name="email">
+           
+            <br>
+            <label for="Telefone">Telefone:</label>
+            <br>
+            <input type="text" id="Telefone" name="Telefone">
+        </div>
+        </fieldset>
+
+        <div class="row2">
+            
+                <input type="button" value="Enviar" onclick="msg()">
+            
+              
+              <script>
+              function msg() {
+                alert("As informações foram enviadas!");
+              }
+              
+              </script>
+            
+              <input type="reset" value="Limpar">
+
+            </div>
+     </form>
     
      <footer class="footer">
         <h4> GRUPO 1</h4>
      </footer>
+
+     
     
      </body>
     </html>

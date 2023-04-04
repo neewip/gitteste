@@ -4,16 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/819c372c58.js" crossorigin="anonymous"></script>
     <title>Document</title>
     
         <style> body{background-color: #E36791 ;} 
-        .foto {
+     .fotos {
         display: flex;
         flex-direction: row;
         width:100%;
         background-color:#B51465;
         border: 4px solid #790E44;
-        justify-content: center;
+        justify-content:space-evenly
+    }
+    
+    .foto {
+        display: flex;
+        flex-direction: row;
+    
+    }
+
+    .descer{
+        display: flex;
+        flex-direction: row;
+    font-size: 05vw;
+    align-self: end;
     }
     .titulo {
     margin-top:5%;
@@ -31,9 +45,15 @@
         </style>
     </head>
 <body>
-    <section class="foto">
-        <img title="Lurdinha" src="../IMG/Lurdinha.jpg" widht="300" height="300" >
-        </section>
+    <section class="fotos">
+        <div class="foto">
+            <img title="Lurdinha" src="../IMG/Lurdinha.jpg" widht="300" height="300" >
+        </div>
+        <div class="descer">
+    
+            <p><i class="fa-solid fa-circle-down fa-bounce"></i></p>
+        </div>
+    </section>
 
 <header class="titulo">
         <h1>Entrevista com Lurdinha</h1>
